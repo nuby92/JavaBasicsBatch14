@@ -1,0 +1,24 @@
+package com.syntax.class14;
+
+public class StringDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String firstName="Olena";
+		String lastName="Dudka";
+		
+		System.out.println(firstName+lastName);
+		System.out.println(firstName.concat(" ").concat(lastName));
+		
+		String str=" ";
+		
+		//isEmpty() returns true if a String is empty. This method will return false even if you have a space in a String variable
+		//however the isBalnk method does not count the spaces.
+		
+		System.out.println(str.isEmpty());
+
+
+	}
+
+}
